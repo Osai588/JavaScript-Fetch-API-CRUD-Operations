@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+   <!-- Create a List and Append to the Body
+ Create an unordered list (<ul>) with five list items (<li>), each containing unique text. Append the <ul> to the <body>. -->
+
+  <!-- <script>
+    let ul=document.createElement("ul");
+   for(let i=0;i<=3;i++){
+   let li= document.createElement("li");
+   li.innerText=i;
+   ul.appendChild(li);
+
+   }
+   document.body.appendChild(ul);
+
+  </script> -->
+
+<!-- Create a Paragraph Inside a Div and Append to the Body
+ Create a <div> element, and inside it, add a <p> element with some descriptive text. Append the <div> to the <body>.
+
+  <script>
+    let con1=document.createElement("div");
+    let p=document.createElement("p")
+        p.innerText="java Script is Awesome";
+        con1.appendChild(p);
+        document.body.appendChild(con1);
+  </script> -->
+
+   <!-- Build a Nested Structure and Append to the Body
+ Create a <div> containing a <h1> heading and a <p> paragraph, both with distinct text. Append the <div> to the <body>. -->
+
+  <!-- <script>
+    let div=document.createElement("div");
+    let h1=document.createElement("h1")
+    h1.innerText="javaScript"
+    let p=document.createElement("p");
+    p.innerText="React js";
+    div.appendChild(h1);
+    div.appendChild(p);
+    document.body.appendChild(div);
+
+  </script> -->
+
+    <!-- Add Multiple Buttons and Append to the Body
+ Create a <div> and append five <button> elements to it, each with unique text for the button label. Append the <div> to the <body>. -->  
+
+<!-- <script>
+let div=document.createElement("div")
+
+let arr=["home","about","services","contact","login"];
+
+for(let i=0;i<arr.length;i++){
+  let button=document.createElement("button");
+  button.innerText=arr[i];
+  div.appendChild(button);
+  div.appendChild(document.createElement("br"))
+  div.appendChild(document.createElement("br"))
+  
+}
+document.body.appendChild(div);
+
+
+</script> -->
+
+  <!-- Generate a Table Row and Append to the Body
+ Create a <table> element with a single row (<tr>) and three cells (<td>), each containing some text. Append the <table> to the <body>. -->
+
+<script>
+let table=document.createElement("table")
+let tr=document.createElement("tr");
+
+let arr=["Name","Age","City"];
+for(i=0;i<arr.length;i++){
+ let td= document.createElement("td");
+ td.innerText=arr[i];
+
+ tr.appendChild(td);
+ 
+
+}
+table.appendChild(tr);
+document.body.appendChild(table);
+table.border="1"
+
+</script>
+  
+</body>
+</html>
